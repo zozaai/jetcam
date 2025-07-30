@@ -1,5 +1,5 @@
 # jetcam
-🤖 JetSmartCam — Jetson Nano + Camera + VLLM = real-time scene talker! 📷🧠🔊
+🤖 JetSmartCam — Jetson Nano + Camera + VLLM + TTS = real-time scene talker! 📷🧠🔊
 
 <p align="center">
   <a href="https://excalidraw.com/#json=FcO55BsQn51s2Pqqt5rrK,oh1x03sJwQH__qTI1Zd1tw">
