@@ -25,3 +25,9 @@ Copy .env.example to .env, then set environment variables
 ## set .env
 ```bash
 OPENAI_API_KEY="Place you openai api key here"
+```
+
+# How test openai calling
+```
+python -m jetcam.llm
+```
