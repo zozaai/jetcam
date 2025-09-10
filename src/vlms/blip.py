@@ -8,7 +8,7 @@ image_path = os.path.join(os.path.dirname(current_dir), 'pics', 'test.jpg')
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
-raw_image = cv2.imread('./test.jpg').astype('uint8')
+raw_image = cv2.imread(image_path).astype('uint8')
 raw_image = cv2.cvtColor(raw_image, cv2.COLOR_BGR2RGB)
 
 gen_kwargs = dict(
